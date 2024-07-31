@@ -22,7 +22,7 @@ print(tabela_clientes.head(10))
 tabela_clientes = pd.read_excel(pasta_atual / 'clientes.xlsx', sheet_name='SC', index_col=0)
 print(tabela_clientes.head(10))
 
-
+ 
 # Lendo colunas especificas
 tabela_clientes = pd.read_excel(pasta_atual / 'clientes.xlsx', sheet_name='SC', usecols="A:B")
 print(tabela_clientes.head(10))
